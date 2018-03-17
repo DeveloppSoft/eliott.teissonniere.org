@@ -159,8 +159,8 @@ module.exports = function(grunt) {
     copy: {
       dist: {
         files: [
-          {expand: true, cwd: 'src/', src: ['**'], dest: 'dist/theme'}//,
-          //{expand: true, cwd: '.',    src: ['demo.html', 'support.html', 'CHANGELOG.md'], dest: 'dist'}
+          {expand: true, cwd: 'src/', src: ['**'], dest: 'dist/theme'},
+          {expand: true, cwd: '.',    src: ['_redirects'], dest: 'dist/theme'}
         ],
       },
 
