@@ -194,5 +194,10 @@ $(document).ready(function() {
                 $('.content, .header').find('.body-backdrop').remove();
                 break;
         }
-    })
+    });
+
+    $(".nav-link").click(function() {
+        $("#navbar_main").removeClass("open");
+        $("body").find(".body-backdrop").remove();
+    });
 });
